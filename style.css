@@ -1,52 +1,13 @@
 
   body { 
-    background-image: url('backone.jpeg');
+    background-image: url('back.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
       
-      /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-  .project-tab {
-    padding: 10%;
-    margin-top: -8%;
-    margin: 0;
-    background-color: #77cc6d;
-    font-family: 'Raleway Dots', sans-serif;
-  
-}
-.project-tab #tabs{
-    background: #007b5e;
-    color: #eee;
-}
-.project-tab #tabs h6.section-title{
-    color: #eee;
-}
-.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #0062cc;
-    background-color: transparent;
-    border-color: transparent transparent #f3f3f3;
-    border-bottom: 3px solid !important;
-    font-size: 16px;
-    font-weight: bold;
-}
-.project-tab .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    color: #0062cc;
-    font-size: 16px;
-    font-weight: 600;
-}
-.project-tab .nav-link:hover {
-    border: none;
-}
-.project-tab thead{
-    background: #f3f3f3;
-    color: #333;
-}
-.project-tab a{
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
-}
+
 
 
   ul.timeline {
@@ -80,55 +41,23 @@ ul.timeline > li:before {
     z-index: 400;
 }
 
-.rounded {
-    border-radius:.25rem!important
+
+
+
+.table{
+  max-width: 95%;
 }
 
 
-h1,h2,h3 {
-	margin:0 0 35px 0;
-	font-family: 'Patua One', cursive;
-	text-transform: uppercase;
-	letter-spacing:1px;
-}
 
-p{
-	margin:0 0 25px;
-	font-size:18px;
-	line-height:1.6em;
-}
-a{
-	color:#26a5d3;
-}
-a:hover,a:focus{
-	text-decoration:none;
-	color:#26a5d3;
-}
 
-#contact{
-	background:rgb(238, 238, 238);
-	color:#f4f4f4;
-    padding-bottom:80px;
 
-}
-
-textarea.form-control{
-    height:100px;
-}
 .well{
-    background-color: rgb(238, 105, 173);
+    background-color: rgb(238, 238, 238);
     }
 
-    .span4 img {
-        margin-right: 10px;
-    }
-    .span4 .img-left {
-        float: left;
-    }
-    .span4 .img-right {
-        float: right;
-    }
-
+    
+   
     section #services {
         text-align: center;
         transform: translatez(0);
@@ -185,3 +114,30 @@ textarea.form-control{
         padding: 20px;
         max-width: 300px;
       }
+
+      .how-section1{
+        margin-top:-15%;
+        padding: 10%;
+    }
+    .how-section1 h4{
+        color: #ffa500;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .how-section1 .subheading{
+        color: #3931af;
+        font-size: 20px;
+    }
+    .how-section1 .row
+    {
+        margin-top: 10%;
+    }
+    .how-img 
+    {
+        text-align: center;
+    }
+    .how-img img{
+        width: 40%;
+    }
+
+      

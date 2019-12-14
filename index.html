@@ -4,7 +4,6 @@
   <title>Jamie Nolan</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -12,11 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-  <style>
+  <link rel="stylesheet" href="style.css">
 
-      #section3 {padding-top:50px;height:500px;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
-  </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -33,18 +29,19 @@
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#section1">Experience</a></li>
-          <li><a href="#section2">Education</a></li>
-          <li><a href="#section3">Projects</a></li>
-          <li><a href="#section3">Hackathons</a></li>
-          <li><a href="#section3">Contact Me!</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Hackathons">Hackathons</a></li>
            
         </ul>
       </div>
     </div>
   </div>
 </nav>    
-
+<br></br>
+<br></br>
+<br></br>
 <div class="container">
     <div class="well">
     <div class="jumbotron">
@@ -61,7 +58,6 @@
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
           </div>
-          <span>Facebook</span>
         </li>
         <li>
           <div class="twitter">
@@ -69,7 +65,6 @@
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </div>
-          <span>Twitter</span>
         </li>
         <li>
           <div class="youtube">
@@ -77,7 +72,6 @@
               <i class="fa fa-youtube" aria-hidden="true"></i>
             </a>
           </div>
-          <span>LinkedIn</span>
         </li>
         <li>
           <div class="instagram">
@@ -85,7 +79,6 @@
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </div>
-          <span>Instagram</span>
         </li>
         <li>
           <div class="github">
@@ -93,15 +86,14 @@
               <i class="fa fa-github" aria-hidden="true"></i>
             </a>
           </div>
-          <span>Github</span>
         </li>
       </ul>
     </section>
+    <button type="button" class="btn btn-secondary">Secondary Button</button></div>
   </div>
 </div>
-</div>
 
-<div id="section3" class="container">
+<div id="Experience" class="container">
     <div class="well">
 
     <div class="container mt-5 mb-5">
@@ -140,28 +132,25 @@
 
       
 </div>
-<br></br>
   <br></br>
-  <br></br>
-  <div id="section2" class="container">
+  <div id="Education" class="container">
     <div class="well">
-
     <div class="container">
             <h2>Education</h2>
         <p>College - Technological University Dublin - Tallaght Campus</p>
         <ul class="nav nav-pills">
-          <li class="active"><a data-toggle="pill" href="#home">3rd Year </a></li>
+          <li><a data-toggle="pill" href="#3rdyear">3rd Year </a></li>
           <li><a data-toggle="pill" href="#menu1">2nd Year</a></li>
           <li><a data-toggle="pill" href="#menu2">1st Year</a></li>
         </ul>
         
         <div class="tab-content">
-          <div id="home" class="tab-pane fade in active">
+          <div id="3rdyear" class="tab-pane fade in active">
             <table class="table">  
               <thead>  
                   <tr>  
-                      <th scope="col">Module</td>  
-                      <th scope="col">Grade</td>  
+                      <th style="width:10%">Module</td>  
+                      <th style="width:10%">Grade</td>  
                   </tr>  
               </thead>  
                 
@@ -185,14 +174,65 @@
         </tbody>  
           </table>  
       </div>  
-    </div>
           <div id="menu1" class="tab-pane fade">
-            <h3>Menu 1</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
+            <table class="table">  
+              <thead>  
+                  <tr>  
+                      <th style="width:10%">Module</td>  
+                      <th style="width:10%">Grade</td>  
+                  </tr>  
+              </thead>  
+                
+              <tbody>  
+                  <tr>  
+                      <td>Data Structures & Algorithms</td>  
+                      <td>B</td>  
+                  </tr>  
+                  <tr>  
+                      <td>Server-Side Web Development</td>  
+                      <td>B+</td>  
+                  </tr>  
+                  <tr>  
+                    <td>Cloud Service & Distributed Computing</td>  
+                    <td>B-</td>  
+                </tr>  
+                <tr>  
+                  <td>Data Analysis</td>  
+                  <td>B-</td>  
+              </tr>  
+        </tbody>  
+          </table>            </div>
           <div id="menu2" class="tab-pane fade">
-            <h3>Menu 2</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <table class="table">  
+              <thead>  
+                  <tr>  
+                      <th style="width:10%">Module</td>  
+                      <th style="width:10%">Grade</td>  
+                  </tr>  
+              </thead>  
+                
+              <tbody>  
+                  <tr>  
+                      <td>Software Development 2 </td>  
+                      <td>C</td>  
+                  </tr>  
+                  <tr>  
+                      <td>Object Oriented Analysis</td>  
+                      <td>C</td>  
+                  </tr>  
+                  <tr>  
+                    <td>Discrete Mathematics 2</td>  
+                    <td>B+</td>  
+                </tr>  
+                <tr>  
+                  <td>Social Media Communications</td>  
+                  <td>B-</td>  
+              </tr>     <tr>  
+                <td>Computer architecture</td>  
+                <td>C</td>  
+            </tr>  
+        </tbody>  
+          </table>  
           </div>
           <div id="menu3" class="tab-pane fade">
             <h3>Menu 3</h3>
@@ -201,134 +241,175 @@
         </div>
     </div>
 </div>
+</div>  
+
+
+
+
+
+
+
+<div id="Projects" class="container">
+  <div class="well">
+      <div class="row">
+        <h1>Projects</h1>
+          <div class="col-md-6 how-img">
+              <img src="IBM.jpg" class="rounded-circle img-fluid" alt=""/>
+          </div>
+          <div class="col-md-6">
+              <h4>IBM - Industry Back Project</h4>
+                          <h4 class="subheading">A project I am currently undertaking to develop a new 2FA method for IBM</h4>
+          <p class="text-muted">Using a combination of Kotlin, Android Studio and other visualization tools I am currently reseraching new ways to enhance 2FA
+                             As I research more I find that many 2FA are open to man in the middle attacks and I am developing a way to circumvent this and reach authentication securely
+                             I travel to IBM to speak and discuss about new ways to approach this issue</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <h4>Get hired quickly</h4>
+                          <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>
+                          <p class="text-muted">Streamlined hiring. GetLance’s sophisticated algorithms highlight projects you’re a great fit for.
+                              Top Rated and Rising Talent programs. Enjoy higher visibility with the added status of prestigious programs.
+                              Do substantial work with top clients. GetLance pricing encourages freelancers to use GetLance for repeat relationships with their clients.</p>
+          </div>
+          <div class="col-md-6 how-img">
+              <img src="https://image.ibb.co/cHgKnU/Work_Section2_freelance_img2.png" class="rounded-circle img-fluid" alt=""/>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 how-img">
+               <img src="https://image.ibb.co/ctSLu9/Work_Section2_freelance_img3.png" class="rounded-circle img-fluid" alt=""/>
+          </div>
+          <div class="col-md-6">
+              <h4>Work efficiently, effectively.</h4>
+                          <h4 class="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h4>
+                          <p class="text-muted">Send and receive files. Deliver digital assets in a secure environment.
+                              Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
+                              Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <h4>Get paid on time</h4>
+                          <h4 class="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h4>
+                          <p class="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
+                              Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
+                              Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
+          </div>
+          <div class="col-md-6 how-img">
+              <img src="https://image.ibb.co/gQ9iE9/Work_Section2_freelance_img4.png" class="rounded-circle img-fluid" alt=""/>
+          </div>
+      </div>
+  </div>
+  
 </div>
-
-
-
-
-
 
 <div id="Hackathons" class="container">
-    <div class="well">
+  <div class="well">
 
-    <div class="container">
-            <h2>Hackathons</h2>
-        <p>College - Technological University Dublin - Tallaght Campus</p>
-        <ul class="nav nav-pills">
-          <li><a data-toggle="pill" href="#AWS">AWS - Tallaght Hospital</a></li>
-          <li><a data-toggle="pill" href="#Workday">Workday</a></li>
-          <li><a data-toggle="pill" href="#menu3">ZeroCarbonHack</a></li>
-        </ul>
-        
-        <div class="tab-content">
-          <div id="home" class="tab-pane fade in active">
-            <h3>HOME</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div id="AWS" class="tab-pane fade">
-            <div class="container">
-                <div class="row">
-                    <h2>Some Title</h2>
-                </div>
-                
-                <div class="block">
-                  <div class="row">
-                    <div class="span4">
-                      <img class="img-left" src="aws.jpg"/>
-                      <div class="content-heading"><h3>Experience &nbsp </h3></div>
-                      <p>Dasasast metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                      <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                    </div>
-                 </div>
-            
-          </div>
-        </div>
+<div class="container">
+      <h2>Hackathons</h2>
+  <p>College - Technological University Dublin - Tallaght Campus</p>
+  <ul class="nav nav-pills">
+    <li><a data-toggle="pill" href="#AWS">AWS - Tallaght Hospital</a></li>
+    <li><a data-toggle="pill" href="#Workday">Workday</a></li>
+    <li><a data-toggle="pill" href="#zch">ZeroCarbonHack</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
-
-
-          <div id="Workday" class="tab-pane fade">
-            <div class="container">
-                <div class="row">
-                    <h2>Some Title</h2>
-                </div>
-                
-                <div class="block">
-                  <div class="row">
-                    <div class="span4">
-                      <img class="img-left" src="workday.jpg"/>
-                      <div class="content-heading"><h3>Experience &nbsp </h3></div>
-                      <p>Dasasast metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                      <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                    </div>
-                 </div>
-          </div>
-        </div>
-    </div>
-
-
-          <div id="menu3" class="tab-pane fade">
-            <div class="container">
-                <div class="row">
-                    <h2>Some Title</h2>
-                </div>
-                
-                <div class="block">
-                  <div class="row">
-                    <div class="span4">
-                      <img class="img-left" src="zch.jpg"/>
-                      <div class="content-heading"><h3>Experience &nbsp </h3></div>
-                      <p>Dasasast metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                      <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                    </div>
-                 </div>
-          </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</div>
-
-
-
-      
-      
-  </div>
-  <section id="contact" class="content-section text-center">
-    <div class="contact-section">
-        <div class="container">
-          <h2>Contact Us</h2>
-          <p>Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Whatsapp,Twitter.</p>
+    <div id="AWS" class="tab-pane fade">
+      <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <form class="form-horizontal">
-                <div class="form-group">
-                  <label for="exampleInputName2">Name</label>
-                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail2">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                </div>
-                <div class="form-group ">
-                  <label for="exampleInputText">Your Message</label>
-                 <textarea  class="form-control" placeholder="Description"></textarea> 
-                </div>
-                <button type="submit" class="btn btn-default">Send Message</button>
-              </form>
-
-              <hr>
-                <h3>Our Social Sites</h3>
-              <ul class="list-inline banner-social-buttons">
-                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
-                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
-                <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"> <span class="network-name">Youtube</span></i></a></li>
-              </ul>
-            </div>
+              <h2>Some Title</h2>
           </div>
-        </div>
+          
+          <div class="block">
+            <div class="row">
+              <div class="span4">
+                <img class="img-left" src="aws.jpg"/>
+                <div class="content-heading"><h3>Experience &nbsp </h3></div>
+                <p>Dasasast metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              </div>
+           </div>
+      
     </div>
-  </section>
+  </div>
+</div>
 
+
+    <div id="Workday" class="tab-pane fade">
+      <div class="container">
+          <div class="row">
+              <h2>Some Title</h2>
+          </div>
+          
+          <div class="block">
+            <div class="row">
+              <div class="span4">
+                <img class="img-left" src="workday.jpg"/>
+                <div class="content-heading"><h3>Experience &nbsp </h3></div>
+                <p>Dasasast metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              </div>
+           </div>
+    </div>
+  </div>
+</div>
+
+
+    <div id="zch" class="tab-pane fade">
+      <div class="container">
+          <div class="row">
+              <h2>Some Title</h2>
+          </div>
+          
+          <div class="block">
+            <div class="row">
+              <div class="span4">
+                <img class="img-left" src="zch.jpg"/>
+                <div class="content-heading"><h3>Experience &nbsp </h3></div>
+                <p>Dasasast metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+              </div>
+           </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+<br></br> 
+ 
 </body>
 </html>
